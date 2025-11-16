@@ -22,70 +22,114 @@
 
 }
 
-/* contacto.css (Añadir o modificar) */
-
 .formulario-contacto {
+  
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-    justify-content: space-between; /* Distribuye los campos en el ancho */
-    max-width: 800px; /* Ancho máximo para el formulario */
+  
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+  
+    max-width: 800px;
+  
     margin: 20px auto;
+  
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para destacar */
+  
+    background-color: rgba(0, 0, 0, 0.5);
+  
     border-radius: 10px;
+  
 }
 
 .campo-form {
-    width: 48%; /* Hace que dos campos (Nombre y Apellido) quepan uno al lado del otro */
+  
+    width: 48%;
+  
     margin-bottom: 20px;
+  
 }
 
 .campo-form-largo {
-    width: 100%; /* Hace que Email y Mensaje ocupen todo el ancho */
+  
+    width: 100%;
+  
     margin-bottom: 20px;
+  
 }
 
-/* Estilos para que los labels e inputs se apilen verticalmente dentro de cada campo-form */
 .campo-form, .campo-form-largo {
+  
     display: flex;
+  
     flex-direction: column;
+  
 }
 
 label {
-    color: #e4bc66; /* Usa el color de tus títulos */
+  
+    color: #e4bc66;
+  
     margin-bottom: 5px;
-    text-align: left; /* Alinea las etiquetas a la izquierda */
+  
+    text-align: left;
+  
     font-weight: bold;
+  
 }
 
 input[type="text"], input[type="email"], textarea {
+  
     width: 100%;
+  
     padding: 10px;
+  
     border: none;
+  
     border-radius: 5px;
-    box-sizing: border-box; /* Asegura que el padding no desborde el 100% del ancho */
+  
+    box-sizing: border-box;
+  
     background-color: rgba(255, 255, 255, 0.9);
-    color: #0a010c; /* Color de texto oscuro */
+  
+    color: #0a010c;
+  
 }
 
 textarea {
-    resize: vertical; /* Permite redimensionar solo verticalmente */
+  
+    resize: vertical;
+  
 }
 
 button[type="submit"] {
+  
     width: 100%;
+  
     padding: 15px;
+  
     background-color: #0596f7;
+  
     color: white;
+  
     border: none;
+  
     border-radius: 5px;
+  
     cursor: pointer;
+  
     transition: background-color 0.3s, transform 0.2s;
+  
     margin-top: 10px;
+  
     font-size: 1.1em;
+  
 }
 
 button[type="submit"]:hover {
+  
     background-color: #0178c7;
+  
     transform: scale(1.01);
+
 }
