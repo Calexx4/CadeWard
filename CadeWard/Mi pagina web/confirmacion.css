@@ -1,6 +1,5 @@
 .confirmacion-mensaje {
 
-    /* Centra y le da un aspecto de caja al mensaje */
     text-align: center;
 
     max-width: 700px; 
@@ -9,9 +8,9 @@
 
     padding: 40px;
 
-    background-color: rgba(0, 50, 100, 0.7); /* Color azul oscuro para simular el mar */
+    background-color: rgba(0, 50, 100, 0.7);
 
-    border: 2px solid #e4bc66; /* Borde con el color de tus títulos */
+    border: 2px solid #e4bc66;
 
     border-radius: 10px;
 
@@ -19,9 +18,7 @@
 
 .confirmacion-mensaje h2 {
 
-    /* Hereda el color base de h2 del primerparcial.css, pero puedes ajustarlo */
-
-    color: #e4bc66; /* Color dorado */
+    color: #e4bc66;
 
     margin-bottom: 25px;
 
@@ -43,13 +40,11 @@
 
 .boton-volver {
 
-    /* Estilo del botón (Puedes reutilizar la clase de la página 404 si la creaste) */
-
     display: inline-block;
 
     padding: 10px 25px;
 
-    background-color: #0596f7; /* Color de link de contacto */
+    background-color: #0596f7;
 
     color: #fff;
 
@@ -59,8 +54,6 @@
 
     margin-top: 15px;
     
-    /* Agrega dinamismo, cumpliendo con el requisito */
-
     transition: background-color 0.3s, transform 0.2s;
 
 }
