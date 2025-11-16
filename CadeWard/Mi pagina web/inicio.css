@@ -1,0 +1,35 @@
+.inicio {
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+.inicio h2 {
+
+  font-size: 2em;
+
+  color: #e4bc66;
+
+  margin-bottom: 15px;
+
+}
+
+.inicio p {
+
+  font-size: 1.2em;
+
+  line-height: 1.6;
+
+  margin-bottom: 20px;
+
+}
+
+.poster img {
+
+ max-width: 50%;
+
+ }
