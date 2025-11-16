@@ -2,25 +2,23 @@
 
     display: flex;
 
-    flex-wrap: wrap; /* Permite que los elementos pasen a la línea siguiente */
+    flex-wrap: wrap;
 
-    justify-content: center; /* Centra los bloques de actores */
+    justify-content: center;
 
-    gap: 20px; /* Espacio entre los bloques */
-
+    gap: 20px;
+    
     padding: 20px;
 
 }
 
 #reparto {
 
-  /* No cambiar, solo enfócate en el contenedor de los actores */
-
-  margin: 20px auto; /* Usar auto para centrar si es un bloque */
+  margin: 20px auto;
 
   color: white;
 
-  max-width: 1200px; /* Aumentar para que haya espacio para más columnas */
+  max-width: 1200px;
 
   text-align: center;
 
@@ -28,11 +26,9 @@
 
 .actor {
 
-  /* Convierte div.actor a article.actor y le da un tamaño base */
-
   display: flex;
 
-  flex-direction: column; /* Cambia a columna para que la imagen y el texto estén apilados */
+  flex-direction: column;
 
   align-items: center;
 
@@ -44,17 +40,17 @@
 
   border: 1px solid rgba(255, 255, 255, 0.2);
 
-  max-width: 250px; /* Tamaño máximo para cada "tarjeta" de actor */
+  max-width: 250px;
 
   text-align: center;
 
-  transition: transform 0.3s; /* Preparación para la animación/efecto */
+  transition: transform 0.3s;
 
 }
 
 .actor:hover {
 
-    transform: scale(1.05); /* Ejemplo de efecto/dinamismo */
+    transform: scale(1.05);
 
     background-color: rgba(0, 0, 0, 0.4);
 
@@ -62,15 +58,15 @@
 
 .actor img {
 
-  width: 100%; /* La imagen ocupa el 100% del actor */
+  width: 100%;
 
   height: auto;
 
   border-radius: 8px;
 
-  margin-right: 0; /* Eliminar margen si ahora es columna */
+  margin-right: 0;
   
-  margin-bottom: 10px; /* Espacio debajo de la imagen */
+  margin-bottom: 10px;
 
 }
 
@@ -78,4 +74,5 @@
 
     font-size: 0.9em;
     
+
 }
