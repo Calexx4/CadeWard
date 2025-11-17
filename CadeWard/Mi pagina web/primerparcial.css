@@ -6,7 +6,7 @@ body {
 
   font-family: 'futura', sans-serif;
 
-  background-image: url("imagen/Fondo\ de\ avatar.jpg");
+  background-image: url("imagen/Fondo de avatar.jpg");
 
   background-size: cover;
 
@@ -138,4 +138,5 @@ body::before {
   z-index: -1;
   
 }
+
 
