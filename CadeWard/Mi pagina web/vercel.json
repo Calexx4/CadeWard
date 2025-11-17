@@ -1,12 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" }
-  ],
-  "redirects": [
-    {
-      "source": "/404",
-      "destination": "/404.html",
-      "statusCode": 404
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "errorPages": {
+    "404": "/404.html"
+  }
 }
