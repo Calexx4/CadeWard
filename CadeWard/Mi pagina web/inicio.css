@@ -1,4 +1,4 @@
-.inicio {
+.index {
 
   max-width: 1000px;
 
@@ -8,7 +8,7 @@
 
 }
 
-.inicio h2 {
+.index h2 {
 
   font-size: 2em;
 
@@ -18,7 +18,7 @@
 
 }
 
-.inicio p {
+.index p {
 
   font-size: 1.2em;
 
@@ -33,3 +33,4 @@
  max-width: 50%;
 
  }
+
