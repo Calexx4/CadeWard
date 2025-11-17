@@ -1,11 +1,17 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "Mi pagina web/**/*.html", "use": "@vercel/static" },
-    { "src": "Mi pagina web/**/*.css", "use": "@vercel/static" },
-    { "src": "Mi pagina web/imagen/**", "use": "@vercel/static" }
+  "rewrites": [
+    { "source": "/", "destination": "./index.html" }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "Mi pagina web/$1" }
+  "redirects": [
+    {
+      "source": "/404",
+      "destination": "./404.html",
+      "statusCode": 200
+    },
+    {
+      "source": "/:path*",
+      "destination": "/404.html",
+      "statusCode": 404
+    }
   ]
 }
